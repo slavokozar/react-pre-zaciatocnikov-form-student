@@ -83,7 +83,7 @@ function App() {
                             <input className="form-control" type="number" name="year" id="year" value={year}
                                    onChange={(e) => setYear(e.target.value)}/>
                         </div>
-                        <div className="mb-1" style={{padding: '100px'}}>
+                        <div className="mb-1">
                             <label className="form-label" htmlFor="school">Univerzita</label>
                             <select className="form-control" value={university}
                                     onChange={(e) => setUniversity(e.target.value)}>
